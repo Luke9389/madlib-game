@@ -15,4 +15,7 @@ function updateResult(){
     resultVerbOne.textContent = verbOne.value;
 }
 
-const madlib = document.createElement
+function makeMadlib(){
+   
+    document.getElementById('story').classList.toggle('hidden');
+}

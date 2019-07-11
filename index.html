@@ -9,22 +9,25 @@
     </head>
     <body>
         <header class="main-header">
-            <h1>Let's Do A Madlib!</h1>
+            <h1 id='top-title'>Let's Do A Madlib!</h1>
         </header>
 
         <h1>Enter in some words...</h1>
-        <label>
-            Noun: <input id='nounOne' oninput='updateResult()'>
-        </label>
-        <br>
-        <label>
-            Noun: <input id='nounTwo' oninput='updateResult()'>
-        </label>
-        <br>
-        <label>
-            Verb: <input id='verbOne' oninput='updateResult()'>
-        </label>
-
+        <div>
+            <label>
+                Noun: <input id='nounOne' oninput='updateResult()'>
+            </label>
+            <br>
+            <label>
+                Noun: <input id='nounTwo' oninput='updateResult()'>
+            </label>
+            <br>
+            <label>
+                Verb: <input id='verbOne' oninput='updateResult()'>
+            </label>
+        </div>
+        <button type="button" onclick="makeMadlib()">Click to Show/Hide Madlib</button>
+        
         <div id='story' class="hidden">
             <p>
                 Today in bootcamp prep, we learned
@@ -35,7 +38,10 @@
             </p>
 
         </div>
-        <script src="app.js"></script>
 
+
+
+
+        <script src="app.js"></script>
     </body>
 </html>
