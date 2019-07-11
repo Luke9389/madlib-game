@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <h1>Let's Do A Madlib!</h1>
+        </header>
+
+        <h1>Enter in some words...</h1>
+        <label>
+            Noun: <input id='nounOne' oninput='updateResult()'>
+        </label>
+        <br>
+        <label>
+            Noun: <input id='nounTwo' oninput='updateResult()'>
+        </label>
+        <br>
+        <label>
+            Verb: <input id='verbOne' oninput='updateResult()'>
+        </label>
+
+        <div id='story' class="hidden">
+            <p>
+                Today in bootcamp prep, we learned
+                the importance of <span id='resultNounOne'></span>.
+                There are many ways to <span id='resultNounTwo'></span>, though
+                I figured
+                I'd just <span id='resultVerbOne'></span>.
+            </p>
+
+        </div>
+        <script src="app.js"></script>
+
+    </body>
+</html>
