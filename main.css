@@ -1,3 +1,7 @@
+body{
+    background:rgb(98,149,177);
+}
+
 .hidden {
     display: none;
 }   
@@ -7,16 +11,33 @@ p{
 }
 
 h1{
-    color: red
+    color: white;
 }
 
 #top-title{
-color: green;
-font-family: Helvetica;
+color: white;
+font-family: Gill Sans;
+font-size: 50px;
 }
 
 div{
-    background: lightgray;
-    background: -moz-linear-gradient(left, lightgray 0%, gray 50%, black 100%)
-    
+ 
+
+
+}
+
+button{
+    -webkit-box-shadow: 3px 3px 4px 2px #000000; 
+box-shadow: 3px 3px 4px 2px #000000;
+margin: 4px;
+border-radius: 3px;
+padding: 5px;
+background: white;
+color: black;
+}
+
+label{
+    padding: 15px;
+    margin: 10px;
+    border:10px;
 }
